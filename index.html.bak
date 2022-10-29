@@ -1,1 +1,44 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><title>Admin | Dashboard</title><meta name="description" content="Updates and statistics"/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta name="csrf-token" content="{{csrf_token()}}"/><link href="/assets/css/style.css?v=1.0" rel="stylesheet"/><link href="/assets/api/pace/pace-theme-flat-top.css" rel="stylesheet"/><link href="/assets/api/mcustomscrollbar/jquery.mCustomScrollbar.css" rel="stylesheet"/><link href="/assets/api/datatable/jquery.dataTables.min.css" rel="stylesheet"/><link rel="shortcut icon" href="/assets/images/misc/r.png"/><script defer="defer" type="module" src="/js/chunk-vendors.cd8972d9.js"></script><script defer="defer" type="module" src="/js/app.d7dcf5ba.js"></script><link href="/css/app.e60439c3.css" rel="stylesheet"><script defer="defer" src="/js/chunk-vendors-legacy.cd8972d9.js" nomodule></script><script defer="defer" src="/js/app-legacy.d7dcf5ba.js" nomodule></script></head><body id="tc_body" class="header-fixed header-mobile-fixed subheader-enabled aside-enabled aside-fixed"><div id="kundol-body" class="h-100"></div><script src="/assets/js/plugin.bundle.min.js"></script><script src="/assets/js/bootstrap.bundle.min.js"></script><script src="/assets/js/script.bundle.js"></script></body></html>
+<!DOCTYPE html>
+<html  lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="tGa3IvRlM2KzVIEIIKKG6hq7xONUH51oTrpzCiaf">
+        <title>iClouds Stock Manager</title>
+		<link rel="icon" type="image/png" href="/images/small_light.png">
+		<meta name="msapplication-TileImage" href="/images/small_light.png">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap">
+
+				<link rel="stylesheet" href="/css/antd.css">
+				<link rel="stylesheet" href="/css/app.css">
+		<link rel="stylesheet" href="/css/pos_invoice_css.css">
+    </head>
+    <body class="light_theme">
+        <div id="app"></div>
+        <script>
+            window.config = {
+                'path': '',
+                'invoice_url': "/api/v1/pdf",
+                'pos_invoice_css': "/css/pos_invoice_css.css",
+                'verify_purchase_background': "/images/verify_purchase_background.svg",
+                'login_background': "/images/login_background.svg",
+                'product_sample_file': "/images/sample_products.csv",
+                'category_sample_file': "/images/sample_categories.csv",
+                'brand_sample_file': "/images/sample_brands.csv",
+                'customer_sample_file': "/images/sample_customers.csv",
+                'supplier_sample_file': "/images/sample_suppliers.csv",
+                'staff_member_sample_file': "/images/sample_staff_members.csv",
+                'perPage': 10,
+				'product_name': "iClouds Stock Manager",
+				'product_version': "2.0.8",
+				'modules': [],
+				'installed_modules': [],
+				'theme_mode': "light",
+				'appChecking': true,
+				'app_version': "2.0.8",
+				'app_env': "production",
+            };
+        </script>
+        <script src="/js/app.js?id=3230e595eef00654b5fbd65766464887"></script>
+    </body>
+</html>
